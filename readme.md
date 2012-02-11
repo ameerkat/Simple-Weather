@@ -35,11 +35,11 @@ simple weather condition icons that integrate into the phones interface.
 ![Thunderstorm](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/thunderstorm.png)
 	
 ## Screenshots
-![Live Tile English](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Screenshots/tileEnglish.png)
-![Live Tile Korean](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Screenshots/tileKorean.png)
-![Current Conditions English](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Screenshots/screen1.png)
-![Current Conditions Korean](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Screenshots/demoKorean.png)
-![Light Theme Demo](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Screenshots/lightTheme.png)
+![Live Tile English](https://github.com/ameerkat/Simple-Weather/raw/master/Screenshots/tileEnglish.png)
+![Live Tile Korean](https://github.com/ameerkat/Simple-Weather/raw/master/Screenshots/tileKorean.png)
+![Current Conditions English](https://github.com/ameerkat/Simple-Weather/raw/master/Screenshots/screen1.png)
+![Current Conditions Korean](https://github.com/ameerkat/Simple-Weather/raw/master/Screenshots/demoKorean.png)
+![Light Theme Demo](https://github.com/ameerkat/Simple-Weather/raw/master/Screenshots/lightTheme.png)
 
 	
 ## Guidlines
