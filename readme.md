@@ -45,3 +45,7 @@ WeatherHelper.TranslationHelper which is aimed at translating the weather
 condition strings and providing varying titles for the live tile based on the
 phone language. If you want to add another language be sure to update 
 TranslationHelper as well.
+
+### Language Support
+* English (Complete)
+* Korean (In Progress)
