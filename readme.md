@@ -34,6 +34,8 @@ simple weather condition icons that integrate into the phones interface.
 ![Sunny](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/sunny.png)
 ![Thunderstorm](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/thunderstorm.png)
 	
+## Screenshot
+	
 ## Guidlines
 http://www.silverlightshow.net/items/Windows-Phone-7-Application-Certification-Cheat-Sheet.aspx
 
