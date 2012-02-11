@@ -15,6 +15,9 @@ simple weather condition icons that integrate into the phones interface.
 * set title to "Weather" and integrate the temp as part of the background image on bottom right
 	* not sure what's going on here, might be a race condition
 
+## Icons
+[Chance of Rain](/Simple Weather/Simple Weather/icons/light/chance_of_rain.png)
+	
 ## Guidlines
 http://www.silverlightshow.net/items/Windows-Phone-7-Application-Certification-Cheat-Sheet.aspx
 
