@@ -16,7 +16,7 @@ simple weather condition icons that integrate into the phones interface.
 	* not sure what's going on here, might be a race condition
 
 ## Icons
-[Chance of Rain](/Simple Weather/Simple Weather/icons/light/chance_of_rain.png)
+![Chance of Rain](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/chance_of_rain.png)
 	
 ## Guidlines
 http://www.silverlightshow.net/items/Windows-Phone-7-Application-Certification-Cheat-Sheet.aspx
