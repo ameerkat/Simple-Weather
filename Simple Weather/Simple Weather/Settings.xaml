@@ -1,0 +1,56 @@
+﻿<phone:PhoneApplicationPage 
+    x:Class="Simple_Weather.Settings"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:toolbox="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d" d:DesignHeight="768" d:DesignWidth="480"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!--TitlePanel contains the name of the application and page title-->
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="750">
+            <ScrollViewer.Content>
+            <StackPanel>
+                <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock x:Name="ApplicationTitle" Text="Simple Weather" Style="{StaticResource PhoneTextNormalStyle}"/>
+            <TextBlock x:Name="PageTitle" Text="{Binding Path=LocalizedResources.settings, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+        
+        <StackPanel x:Name="SettingsPanel" Margin="17,-10,10,15" >
+            <toolbox:ToggleSwitch x:Name="locationToggle" Header="{Binding Path=LocalizedResources.settings_automatically_detect_location, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
+            <toolbox:ToggleSwitch x:Name="tileToggle" Header="{Binding Path=LocalizedResources.settings_automatically_update_tile, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
+            <toolbox:ToggleSwitch x:Name="downloadToggle" Header="{Binding Path=LocalizedResources.settings_automatically_download_data, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
+            <TextBlock Text="{Binding Path=LocalizedResources.settings_refresh_label, Source={StaticResource LocalizedStrings}}" TextWrapping="Wrap" Margin="12,0,0,0"/>
+            <TextBox Name="refreshTextbox" Text="" InputScope="Number" Width="150" HorizontalAlignment="Left" IsEnabled="True" Margin="0,5,0,0"/>
+            <TextBlock Text="{Binding Path=LocalizedResources.settings_zip_label, Source={StaticResource LocalizedStrings}}" TextWrapping="Wrap" Margin="12,0,0,0"/>
+            <TextBox Name="zipTextbox" Text="" InputScope="Number" Width="150" HorizontalAlignment="Left" IsEnabled="False" Margin="0,5,0,0"/>
+            <TextBlock Text="{Binding Path=LocalizedResources.settings_format_label, Source={StaticResource LocalizedStrings}}" Margin="12,12,0,0" />
+            <toolbox:ListPicker Name="temp_format" Width="70" HorizontalAlignment="Left" Margin="12,5,0,0">
+                <toolbox:ListPickerItem Content="F" Name="f_option"/>
+                <toolbox:ListPickerItem Content="C" Name="c_option" />
+            </toolbox:ListPicker>
+        </StackPanel>
+            </StackPanel>
+            </ScrollViewer.Content>
+        </ScrollViewer>
+
+        <TextBlock Name="debugBox" VerticalAlignment="Bottom" Text="debug box:" Margin="0,0,0,0" Grid.Row="1" Visibility="Collapsed"/>
+    </Grid>
+
+</phone:PhoneApplicationPage>

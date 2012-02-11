@@ -1,0 +1,10 @@
+C:\Users\euler\Desktop\MetroWeather\AppNew\SimpleWeather\WeatherHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\euler\Desktop\MetroWeather\AppNew\SimpleWeather\WeatherHelper\Bin\Debug\WeatherHelper.dll
+C:\Users\euler\Desktop\MetroWeather\AppNew\SimpleWeather\WeatherHelper\Bin\Debug\WeatherHelper.pdb
+C:\Users\euler\Desktop\MetroWeather\AppNew\SimpleWeather\WeatherHelper\obj\Debug\WeatherHelper.dll
+C:\Users\euler\Desktop\MetroWeather\AppNew\SimpleWeather\WeatherHelper\obj\Debug\WeatherHelper.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\Bin\Debug\WeatherHelper.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\Bin\Debug\WeatherHelper.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\obj\Debug\WeatherHelper.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\obj\Debug\WeatherHelper.pdb

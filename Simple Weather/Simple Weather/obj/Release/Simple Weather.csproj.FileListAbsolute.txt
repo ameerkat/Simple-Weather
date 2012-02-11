@@ -1,0 +1,34 @@
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\ResolveAssemblyReference.cache
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\App.g.i.cs
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\MainPage.g.i.cs
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\Settings.g.i.cs
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\Simple Weather.g.resources
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\Simple_Weather.AppResources.resources
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\GenerateResource.read.1.tlog
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\GenerateResource.write.1.tlog
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\ApplicationIcon.png
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Background.png
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Simple Weather.dll.config
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Simple Weather.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Simple Weather.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\AppManifest.xaml
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Simple_Weather.xap
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Microsoft.Phone.Controls.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Microsoft.Phone.Controls.Toolkit.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Newtonsoft.Json.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\RestSharp.WindowsPhone.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\UpdateSimpleWeatherTile.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\WeatherHelper.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\UpdateSimpleWeatherTile.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\WeatherHelper.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Microsoft.Phone.Controls.xml
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Microsoft.Phone.Controls.Toolkit.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Microsoft.Phone.Controls.Toolkit.xml
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Newtonsoft.Json.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\Newtonsoft.Json.xml
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\Simple Weather.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\Simple Weather.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\XapCacheFile.xml
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\Bin\Release\ko-KR\Simple Weather.resources.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\Simple_Weather.AppResources.ko-KR.resources
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\Simple Weather\obj\Release\ko-KR\Simple Weather.resources.dll

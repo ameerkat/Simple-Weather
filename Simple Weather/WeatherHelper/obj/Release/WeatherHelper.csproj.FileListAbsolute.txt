@@ -1,0 +1,5 @@
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\Bin\Release\WeatherHelper.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\Bin\Release\WeatherHelper.pdb
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\obj\Release\ResolveAssemblyReference.cache
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\obj\Release\WeatherHelper.dll
+C:\Users\euler\Desktop\MetroWeather\Simple Weather\Simple Weather\WeatherHelper\obj\Release\WeatherHelper.pdb
