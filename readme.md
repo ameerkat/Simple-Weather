@@ -16,23 +16,7 @@ simple weather condition icons that integrate into the phones interface.
 	* not sure what's going on here, might be a race condition
 
 ## Icons
-![Chance of Rain](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/chance_of_rain.png)
-![Chance of Snow](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/chance_of_snow.png)
-![Chance of Storm](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/chance_of_storm.png)
-![Cloudy](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/cloudy.png)
-![Flurries](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/flurries.png)
-![Fog](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/fog.png)
-![Mist](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/mist.png)
-![Mostly Cloudy](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/mostly_cloudy.png)
-![Mostly Sunny](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/mostly_sunny.png)
-![Partly Cloudy](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/partly_cloudy.png)
-![Rain](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/rain.png)
-![Rain Snow](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/rain_snow.png)
-![Showers](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/showers.png)
-![Sleet](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/sleet.png)
-![Snow](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/snow.png)
-![Sunny](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/sunny.png)
-![Thunderstorm](https://github.com/ameerkat/Simple-Weather/raw/master/Simple%20Weather/Simple%20Weather/icons/light/thunderstorm.png)
+![Icon Samples](https://github.com/ameerkat/Simple-Weather/raw/master/Screenshots/icon_samples.png)
 	
 ## Screenshots
 ![Live Tile English](https://github.com/ameerkat/Simple-Weather/raw/master/Screenshots/small/tileEnglish.png)
