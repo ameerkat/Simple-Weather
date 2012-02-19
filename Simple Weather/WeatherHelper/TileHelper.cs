@@ -10,7 +10,6 @@ using System.Windows.Media.Imaging;
 using System.Windows.Resources;
 using Microsoft.Phone.Shell;
 using System.Collections.Generic;
-using System.Diagnostics;
 
 namespace WeatherHelper
 {

@@ -10,11 +10,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Xml.Linq;
 using Microsoft.Phone.Controls;
-using Microsoft.Phone.Scheduler;
 using RestSharp;
 using WeatherHelper;
 using Microsoft.Phone.Shell;
-using System.Diagnostics;
 
 namespace Simple_Weather
 {
@@ -29,7 +27,8 @@ namespace Simple_Weather
         
         // Constructor
         public MainPage()
-        {
+        {    
+            progress.IsHitTestVisible = false;
             InitializeComponent();
             rrah = null;
             settings = IsolatedStorageSettings.ApplicationSettings;
@@ -253,9 +252,6 @@ namespace Simple_Weather
             }
             catch (Exception e)
             {
-                // fail
-                // debug
-                Debug.WriteLine(e.StackTrace);
                 current_condition.Text = AppResources.error_general_exception + " : " + e.Message;
             }
         }
@@ -341,6 +337,20 @@ namespace Simple_Weather
         private void start_weather_load(bool force = false)
         {
             // check to see if we need to load or not
+            if (!force && !(bool)SettingsHelper.getVar("autoloadEnabled"))
+            {
+                if (settings.Contains("lastUpdated"))
+                {
+                    DateTime last_updated = (DateTime)settings["lastUpdated"];
+                    lastUpdatedText.Text = String.Format(AppResources.last_updated + " {0} " + AppResources.minutes_ago, last_updated); // override
+                    refresh_from_cache(last_updated);
+                    return;
+                }
+                else
+                {
+                    return;
+                }
+            }
             if (settings.Contains("lastUpdated") && !force)
             {
                 DateTime last_updated = (DateTime)settings["lastUpdated"];
@@ -422,12 +432,17 @@ namespace Simple_Weather
         private void refresh_from_cache(DateTime last_updated)
         {
             // load from cache data
-            using (StreamReader reader = new StreamReader(xmlCache.OpenFile("xmlCache.xml", FileMode.Open, FileAccess.Read)))
-            {
-                string xml_content = reader.ReadToEnd();
-                refresh_from_xml(xml_content);
-                lastUpdatedText.Text = String.Format(AppResources.last_updated + " {0} " + AppResources.minutes_ago, (int)(DateTime.Now - last_updated).TotalMinutes);
+            if(xmlCache.FileExists("xmlCache.xml")){
+                using (StreamReader reader = new StreamReader(xmlCache.OpenFile("xmlCache.xml", FileMode.Open, FileAccess.Read)))
+                {
+                    string xml_content = reader.ReadToEnd();
+                    refresh_from_xml(xml_content);
+                    lastUpdatedText.Text = String.Format(AppResources.last_updated + " {0} " + AppResources.minutes_ago, (int)(DateTime.Now - last_updated).TotalMinutes);
+                }
+            } else {
+                current_condition.Text = "cached data does not exist, connect to the internet to get weather data.";
             }
+            
         }
 
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
@@ -465,9 +480,7 @@ namespace Simple_Weather
 
             if (!(bool)SettingsHelper.getVar("firstRun"))
             {
-                if ((bool)SettingsHelper.getVar("autoloadEnabled")) {
                     start_weather_load();
-                }
             }
             else
             {
@@ -481,10 +494,7 @@ namespace Simple_Weather
                 }
                 else
                 {
-                    if ((bool)SettingsHelper.getVar("autoloadEnabled"))
-                    {
-                        start_weather_load();
-                    }
+                    start_weather_load();
                 }
             }
         }

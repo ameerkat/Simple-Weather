@@ -24,7 +24,7 @@
                 <!-- weather data here -->
                 <StackPanel Name="stack_panel_container" Orientation="Vertical" Margin="0,15,0,0">
                     <Image Name="current_image" HorizontalAlignment="Center" />
-                    <TextBlock Name="current_condition" Margin="10,25,10,0" IsHitTestVisible="False" FontSize="24" TextAlignment="Center" TextWrapping="Wrap"/>
+                    <TextBlock Name="current_condition" Margin="10,25,10,0" IsHitTestVisible="False" FontSize="24" TextAlignment="Center" TextWrapping="Wrap" />
                     <TextBlock Name="current_temp" Margin="0,10,0,0" IsHitTestVisible="False" FontSize="64" TextAlignment="Center" Foreground="{StaticResource PhoneAccentBrush}"/>
                     <TextBlock Name="current_wind" Margin="0,10,0,0" IsHitTestVisible="False" FontSize="24" TextAlignment="Center"/>
                     <TextBlock Name="current_humidity" Margin="0,10,0,0" IsHitTestVisible="False" FontSize="24" TextAlignment="Center"/>

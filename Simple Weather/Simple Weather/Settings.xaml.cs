@@ -10,12 +10,11 @@ namespace Simple_Weather
 {
     public partial class Settings : PhoneApplicationPage
     {
-        IsolatedStorageSettings settings;
+        static IsolatedStorageSettings settings = IsolatedStorageSettings.ApplicationSettings;
 
         public Settings()
         {
             InitializeComponent();
-            settings = IsolatedStorageSettings.ApplicationSettings;
             this.Loaded += new RoutedEventHandler(SettingsPage_Loaded);
         }
 
