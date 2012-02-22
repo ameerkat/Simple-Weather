@@ -1,3 +1,5 @@
 *.suo
 *.bak.png
+*.dll
+*.pdb
 Simple Weather/Simple Weather/Bin
