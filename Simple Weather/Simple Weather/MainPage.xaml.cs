@@ -28,7 +28,7 @@ namespace Simple_Weather
         // Constructor
         public MainPage()
         {    
-            progress.IsHitTestVisible = false;
+            //progress.IsHitTestVisible = false;
             InitializeComponent();
             rrah = null;
             settings = IsolatedStorageSettings.ApplicationSettings;
