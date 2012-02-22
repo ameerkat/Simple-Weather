@@ -28,7 +28,7 @@ namespace Simple_Weather
         // Constructor
         public MainPage()
         {    
-            progress.IsHitTestVisible = false;
+            //progress.IsHitTestVisible = false;
             InitializeComponent();
             rrah = null;
             settings = IsolatedStorageSettings.ApplicationSettings;
@@ -54,7 +54,7 @@ namespace Simple_Weather
             td.Add("mon", AppResources.day_of_week_monday);
             td.Add("tue", AppResources.day_of_week_tuesday);
             td.Add("wed", AppResources.day_of_week_wednesday);
-            td.Add("thur", AppResources.day_of_week_thursday);
+            td.Add("thu", AppResources.day_of_week_thursday);
             td.Add("fri", AppResources.day_of_week_friday);
             td.Add("sat", AppResources.day_of_week_saturday);
             if (td.ContainsKey(day.ToLower()))
