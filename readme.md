@@ -10,9 +10,7 @@ simple weather condition icons that integrate into the phones interface.
 ### High Priority
 * reorganize code
 * consolidate all the forecast data to one screen
-* fix bugs
-	* detect location sets to off when visiting settings screen for first time even if enabled
-	* background update doesn't seem to update the timestamp on cached data
+* fix bugs (see github issues)
 
 ### Low Priority
 * finish Korean translation
