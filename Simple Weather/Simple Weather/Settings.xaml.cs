@@ -33,8 +33,6 @@ namespace Simple_Weather
 
         private void SettingsPage_Loaded(object sender, RoutedEventArgs e)
         {
-            // @todo set all the items as callbacks on loaded instead of in the xaml
-            // then we can get rid of the if(loaded) checks
             loadVars();
             // register events here to avoid confliction before loading
             locationToggle.Checked += locationToggle_Checked;

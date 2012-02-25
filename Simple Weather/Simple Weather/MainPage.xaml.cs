@@ -447,9 +447,6 @@ namespace Simple_Weather
 
         private void MainPage_Loaded(object sender, RoutedEventArgs e)
         {
-            // Add menu buttons
-
-
             // add the scheduled task to update the live tile
             string taskName = "UpdateTile";
             string description = AppResources.task_description;

@@ -22,31 +22,31 @@
         </Grid.RowDefinitions>
 
         <!--TitlePanel contains the name of the application and page title-->
-        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="750">
+        <ScrollViewer VerticalScrollBarVisibility="Visible" Height="740">
             <ScrollViewer.Content>
-            <StackPanel>
-                <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
-            <TextBlock x:Name="ApplicationTitle" Text="Simple Weather" Style="{StaticResource PhoneTextNormalStyle}"/>
-            <TextBlock x:Name="PageTitle" Text="{Binding Path=LocalizedResources.settings, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
-        </StackPanel>
+                <StackPanel>
+                    <StackPanel x:Name="TitlePanel" Grid.Row="0" Margin="12,17,0,28">
+                        <TextBlock x:Name="ApplicationTitle" Text="Simple Weather" Style="{StaticResource PhoneTextNormalStyle}"/>
+                        <TextBlock x:Name="PageTitle" Text="{Binding Path=LocalizedResources.settings, Source={StaticResource LocalizedStrings}}" Margin="9,-7,0,0" Style="{StaticResource PhoneTextTitle1Style}"/>
+                    </StackPanel>
 
-        <!--ContentPanel - place additional content here-->
-        
-        <StackPanel x:Name="SettingsPanel" Margin="17,-10,10,15" >
-            <toolbox:ToggleSwitch x:Name="locationToggle" Header="{Binding Path=LocalizedResources.settings_automatically_detect_location, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
-            <toolbox:ToggleSwitch x:Name="tileToggle" Header="{Binding Path=LocalizedResources.settings_automatically_update_tile, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
-            <toolbox:ToggleSwitch x:Name="downloadToggle" Header="{Binding Path=LocalizedResources.settings_automatically_download_data, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
-            <TextBlock Text="{Binding Path=LocalizedResources.settings_refresh_label, Source={StaticResource LocalizedStrings}}" TextWrapping="Wrap" Margin="12,0,0,0"/>
-            <TextBox Name="refreshTextbox" Text="" InputScope="Number" Width="150" HorizontalAlignment="Left" IsEnabled="True" Margin="0,5,0,0"/>
-            <TextBlock Text="{Binding Path=LocalizedResources.settings_zip_label, Source={StaticResource LocalizedStrings}}" TextWrapping="Wrap" Margin="12,0,0,0"/>
-            <TextBox Name="zipTextbox" Text="" InputScope="Number" Width="150" HorizontalAlignment="Left" IsEnabled="False" Margin="0,5,0,0"/>
-            <TextBlock Text="{Binding Path=LocalizedResources.settings_format_label, Source={StaticResource LocalizedStrings}}" Margin="12,12,0,0" />
-            <toolbox:ListPicker Name="temp_format" Width="70" HorizontalAlignment="Left" Margin="12,5,0,0">
-                <toolbox:ListPickerItem Content="F" Name="f_option"/>
-                <toolbox:ListPickerItem Content="C" Name="c_option" />
-            </toolbox:ListPicker>
-        </StackPanel>
-            </StackPanel>
+                    <!--ContentPanel - place additional content here-->
+
+                    <StackPanel x:Name="SettingsPanel" Margin="17,-10,10,15" >
+                        <toolbox:ToggleSwitch x:Name="locationToggle" Header="{Binding Path=LocalizedResources.settings_automatically_detect_location, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
+                        <toolbox:ToggleSwitch x:Name="tileToggle" Header="{Binding Path=LocalizedResources.settings_automatically_update_tile, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
+                        <toolbox:ToggleSwitch x:Name="downloadToggle" Header="{Binding Path=LocalizedResources.settings_automatically_download_data, Source={StaticResource LocalizedStrings}}" IsChecked="True" />
+                        <TextBlock Text="{Binding Path=LocalizedResources.settings_refresh_label, Source={StaticResource LocalizedStrings}}" TextWrapping="Wrap" Margin="12,0,0,0"/>
+                        <TextBox Name="refreshTextbox" Text="" InputScope="Number" Width="150" HorizontalAlignment="Left" IsEnabled="True" Margin="0,5,0,0"/>
+                        <TextBlock Text="{Binding Path=LocalizedResources.settings_zip_label, Source={StaticResource LocalizedStrings}}" TextWrapping="Wrap" Margin="12,0,0,0"/>
+                        <TextBox Name="zipTextbox" Text="" InputScope="Number" Width="150" HorizontalAlignment="Left" IsEnabled="False" Margin="0,5,0,0"/>
+                        <TextBlock Text="{Binding Path=LocalizedResources.settings_format_label, Source={StaticResource LocalizedStrings}}" Margin="12,0,0,0" />
+                        <toolbox:ListPicker Name="temp_format" Width="70" HorizontalAlignment="Left" Margin="12,5,0,30">
+                            <toolbox:ListPickerItem Content="F" Name="f_option"/>
+                            <toolbox:ListPickerItem Content="C" Name="c_option" />
+                        </toolbox:ListPicker>
+                    </StackPanel>
+                </StackPanel>
             </ScrollViewer.Content>
         </ScrollViewer>
 
