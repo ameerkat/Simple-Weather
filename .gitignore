@@ -3,3 +3,4 @@
 *.dll
 *.pdb
 Simple Weather/Simple Weather/Bin
+tmp/
