@@ -491,6 +491,7 @@ namespace Simple_Weather
                 }
                 else
                 {
+                    SettingsHelper.setVar("locationEnabled", true);
                     start_weather_load();
                 }
             }

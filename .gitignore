@@ -3,4 +3,7 @@
 *.dll
 *.pdb
 Simple Weather/Simple Weather/Bin
-tmp/
+Simple Weather/Simple Weather/obj
+Simple Weather/UpdateSimpleWeatherTile/Bin
+Simple Weather/UpdateSimpleWeatherTile/obj
+Simple Weather/WeatherHelper/obj
